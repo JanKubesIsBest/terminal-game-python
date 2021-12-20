@@ -45,7 +45,7 @@ class camera:
                 except:
                     return
             print("")
-
+    #not working btw
     def draw_with_resolution(self):
         self.fill_the_camera_view()
         for y in range(len(self.whatCameraSee)):
